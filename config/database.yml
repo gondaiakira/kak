@@ -26,7 +26,7 @@ production:
   encoding: unicode
   pool: 5
   #database: db/production.sqlite3
-  database: goncam
-  username: goncam_user
+  database: gondai
+  username: gondai_user
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
   url: <%= ENV['DATABASE_URL'] %>
